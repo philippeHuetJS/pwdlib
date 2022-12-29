@@ -1,0 +1,40 @@
+{
+  "name": "pwdlib",
+  "version": "1.0.0",
+  "description": "HMAC One-Time Password library",
+  "main": "index.js",
+  "types": "index.d.ts",
+  "license": "MIT",
+  "homepage": "https://github.com/philippeHuetJS/pwdlib#readme",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/philippeHuetJS/pwdlib"
+  },
+  "author": {
+    "name": "Philippe Huet",
+    "email": "philippe.huet5@yahoo.com"
+  },
+  "bugs": {
+    "url": "https://github.com/philippeHuetJS/pwdlib/issues"
+  },
+  "scripts": {
+    "lint": "eslint . --fix",
+    "test": "mocha test"
+  },
+  "keywords": [
+    "otp"
+  ],
+  "dependencies": {
+    "otplib": "^12.0.1"
+  },
+  "devDependencies": {
+    "eslint": "^8.30.0",
+    "eslint-config-prettier": "^8.5.0",
+    "eslint-config-standard": "^17.0.0",
+    "eslint-plugin-prettier": "^4.2.1",
+    "mocha": "^10.2.0",
+    "mochawesome": "^7.1.3",
+    "mochawesome-report-generator": "^6.2.0",
+    "prettier": "^2.8.1"
+  }
+}
